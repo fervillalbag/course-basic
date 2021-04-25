@@ -1,0 +1,92 @@
+
+.seccion {
+  background-color: red;
+}
+
+.titulo {
+  font-size: 64px;
+}
+
+.enlace { 
+  color: purple;
+  border: 1px solid red;
+}
+
+img {
+  width: 60px;
+}
+
+html, body {
+  height: 100%;
+}
+
+/* estilos.html */
+/*
+html, body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+
+  justify-content: center;
+}
+
+.contenedor {
+  height: 200px;
+  border: 1px solid red;
+  padding: 16px 20px;
+   width: 50px; 
+}*/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column-reverse;
+  justify-content: flex-start; */
+  /* flex-direction: row; */
+
+  /*
+    row - row-reverse
+    column - column-reverse
+  */
+  
+  /*
+    si el flex-direction es column:
+    - el justify-content sería para alinear vertical
+    - el align-items sería para alinear horizontalmente
+  */
+  
+  /* alinear horizontalmente */
+  
+  /* justify-content: flex-start; */
+  /* justify-content: flex-end; */
+  /* justify-content: center; */
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  /* justify-content: space-evenly; */
+  /* justify-content: stretch; */
+
+  /* alinear verticalmente */
+
+  /* align-items: flex-start; */
+  /* align-items: flex-end; */
+  /* align-items: center; */
+  /* align-items: space-between; */
+  /* align-items: space-around; */
+  /* align-items: space-evenly; */
+  /* align-items: stretch; */
+
+  background-color: yellow;
+  height: 200px;
+}
+
+.purple {
+  background-color: purple;
+  align-self: center;
+}
+
+.item {
+  border: 1px solid red;
+  width: 50px;
+  height: 50px;
+}
